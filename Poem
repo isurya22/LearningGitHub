@@ -24,6 +24,8 @@ System.out.println("Tiger can eat upto 20 ton.");
 }
 
 class Client{
-  Tiger.run();
-  Tiger.eat();
+  public static void main(String[] args) {
+    Tiger.run();
+    Tiger.eat();
+  }
 }
